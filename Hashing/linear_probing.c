@@ -53,7 +53,7 @@ int main()
 
     showHashTable();
 
-    printf("Hash index of key %d: %d\n",4,getHashIndex(4));
+    printf("Hash index of key %d: %d\n",9,getHashIndex(9));
 }
 
 /*
