@@ -138,6 +138,3 @@ void displayHuffmanCode(Node *root, string code)
     displayHuffmanCode(root->left,code+"0");
     displayHuffmanCode(root->right,code+"1");
 }
-
-
-
