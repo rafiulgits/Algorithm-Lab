@@ -1,0 +1,3 @@
+# exe and o files remove
+*.exe
+*.o
