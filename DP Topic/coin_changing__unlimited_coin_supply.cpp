@@ -44,16 +44,16 @@ int main()
         loop through all coin in table and try to find minimum combination to
         make the current coin amount.
     */
-    for(int coin=0; coin<=target; coin++)
+    for(int money=0; money<=target; money++)
     {
         for(int i=0; i<len; i++)
         {
             /// next coin from supply is greater then current coin in table
-            if(coin < coins[i])
+            if(money < coins[i])
                 break;
             /// set minimum value for current coin amount making in table
-            if(coin_table[coin] > coin_table[coin-coins[i]]+1)
-                coin_table[coin] = coin_table[coin-coins[i]]+1;
+            if(coin_table[money] > coin_table[money-coins[i]]+1)
+                coin_table[money] = coin_table[money-coins[i]]+1;
         }
     }
 
