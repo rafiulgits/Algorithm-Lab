@@ -1,4 +1,4 @@
-# Algorithm-Lab
+# [Algorithm-Lab](https://github.com/rafiulgits/Algorithm-Lab/wiki)
 Algorithm Lab course for Software Engineering, SUST
 
 ## [More Algotithms:](https://github.com/avoidcloud/Algorithm)
