@@ -84,6 +84,15 @@ void lcs()
         else
             j--;
     }
-    cout <<"LCS: "<<seq<<"("<<seq.length()<<")"<<endl;
 
+    // print out the table
+    for(int i=0; i<=len1; i++)
+    {
+        for(int j=0; j<=len2; j++)
+            cout << table[i][j] << " ";
+        cout << endl;
+    }
+    cout << endl;
+
+    cout <<"LCS: "<<seq<<"("<<seq.length()<<")"<<endl;
 }
