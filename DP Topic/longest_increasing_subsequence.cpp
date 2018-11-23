@@ -34,8 +34,8 @@ void lis()
     // define a 1D vector to store all items increasing sequences
     vector<int>seq[len];
 
-    // first items LIS = 1;
-    seq[0].push_back(1);
+    // first items LIS = 1 the item itself;
+    seq[0].push_back(arr[0]);
 
     // iterate from second items of the array
     for(int i=1; i<len; i++)
